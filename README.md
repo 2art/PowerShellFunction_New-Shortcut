@@ -39,14 +39,14 @@ needs to be explicitly specified with the -Args option.
 
 ## Example Usage:
 
-Create a shortcut to the Start Menu directory of all users: <br />
+Create a shortcut to the Start Menu directory of all users:  
 `New-Shortcut "C:\ProgramData\Microsoft\Windows\Start Menu\Programs" "Start Menu (All Users)"`
 
-Create a shortcut that calls cmd.exe with some commands: <br />
+Create a shortcut that calls cmd.exe with some commands:  
 `New-Shortcut C:\Windows\System32\cmd.exe -Args '/C "echo Hello & pause"' "Say Hello"`
 
 ## Credits
 
-**Author: Arttu H. (2art)**<br />
-**Email: [mailto:2art@pm.me](2art@pm.me)**<br />
-**Website: [https://github.com/2art](GitHub: 2art)**
+**Author: Arttu H. (2art)**  
+**Email: [2art@pm.me](mailto:2art@pm.me)**  
+**Website: [2art@GitHub](https://github.com/2art)**
